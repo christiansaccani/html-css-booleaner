@@ -8,22 +8,30 @@ body {
     background-color: dodgerblue;
     display: inline-block;
     position: relative;
+    clip-path: inset(0 0 50% 0);
+    overflow: hidden;
 }
 
 #pattern {
     width: 33%;
     z-index:0;
     position: relative;
+    clip-path: inset(0 0 50% 0);
+    overflow: hidden;
 }
 
 #logo {
-    margin-top: -75px;
-    margin-left: 10px;
-    width: 15%;
+    margin-top: -125px;
+    margin-left: 5px;
+    width: 10%;
     display: inline-block;
     z-index:1;
     position: absolute;
     display: block;
+}
+
+main {
+    margin-top: -80px;
 }
 
 h1 {
