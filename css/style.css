@@ -1,9 +1,33 @@
 body {
+    margin-top: 0;
     margin-left: 25%;
     margin-right: 25%;
 }
 
+#background-container {
+    background-color: dodgerblue;
+    display: inline-block;
+    position: relative;
+}
+
+#pattern {
+    width: 33%;
+    z-index:0;
+    position: relative;
+}
+
+#logo {
+    margin-top: -75px;
+    margin-left: 10px;
+    width: 15%;
+    display: inline-block;
+    z-index:1;
+    position: absolute;
+    display: block;
+}
+
 h1 {
+    margin-top: 15px;
     font-size: xx-large;
 }
 
@@ -81,7 +105,7 @@ thead {
     position: absolute;
     top: 0px; 
     left: -10px; 
-    color: #fff; 
+    color: #ffffff; 
     padding: 10px 20px; 
     font-size: 15px; 
 }
