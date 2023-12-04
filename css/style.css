@@ -32,6 +32,9 @@ h1 {
 
 div {
     font-size: 13px;
+}
+
+.text {
     margin-top: 15px;
 }
 
@@ -62,4 +65,23 @@ thead {
     color: grey;
 }
 
-
+.image-container {
+    position: relative;
+    display: inline-block;
+  }
+  
+.image-container img {
+    margin-top: 5px;
+    display: block;
+    width: 60%;
+    height: auto;
+}
+  
+.overlay-text {
+    position: absolute;
+    top: 0px; 
+    left: -10px; 
+    color: #fff; 
+    padding: 10px 20px; 
+    font-size: 15px; 
+}
