@@ -16,13 +16,13 @@ h1 {
     color: dodgerblue;
 }
 
-img {
+.tim {
     height: 300px;
     margin-top: 20px;
 }
 
 #indice {
-    font-size: xx-small;
+    font-size: x-small;
     margin-top: 0;
 }
 
@@ -55,3 +55,11 @@ thead {
 .bluerow {
     background-color: rgb(135, 225, 255);
 }
+
+#int {
+    margin-top: 25px;
+    font-size: 15px;
+    color: grey;
+}
+
+
