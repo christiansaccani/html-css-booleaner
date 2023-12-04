@@ -1,13 +1,27 @@
 body {
-    margin-left: 25%;
-    margin-right: 25%;
-    display: inline-block;
+    margin-left: 32%;
+    margin-right: 32%;
 }
 
-div {
-    margin-top: -20px;
+#scrittoda {
+    margin-top: -3%;
+    color: grey;
 }
 
 #booleaner {
     color: dodgerblue;
+}
+
+#img1 {
+    width: 49%;
+    height: 200px;
+}
+
+#img2 {
+    width: 45%;
+    height: 200px;
+}
+
+#indice {
+    font-size: xx-small;
 }
