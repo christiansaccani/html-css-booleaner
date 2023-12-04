@@ -45,3 +45,12 @@ table {
     font-size: 13px;
     text-align: left;
 }
+
+thead {
+    background-color: rgb(4, 160, 212);
+    color: white;
+}
+
+.bluerow {
+    background-color: rgb(135, 225, 255);
+}
