@@ -37,5 +37,11 @@ div {
 ul {
     padding-left: 15px;
     margin: 0;
+    margin-bottom: 10px;
     font-size: 13px;
+}
+
+table {
+    font-size: 13px;
+    text-align: left;
 }
