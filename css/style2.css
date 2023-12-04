@@ -1,0 +1,121 @@
+body {
+    margin-top: 0;
+    margin-left: 25%;
+    margin-right: 25%;
+}
+
+#background-container {
+    background-color: dodgerblue;
+    display: inline-block;
+    position: relative;
+    margin-left: -50%;
+    margin-right: -50%;
+    clip-path: inset(0 0 50% 0);
+    overflow: hidden;
+}
+
+#pattern {
+    width: 33%;
+    z-index:0;
+    position: relative;
+    clip-path: inset(0 0 50% 0);
+    overflow: hidden;
+}
+
+#logo {
+    margin-top: -225px;
+    margin-left: 10px;
+    width: 15%;
+    display: inline-block;
+    z-index:1;
+    position: absolute;
+    display: block;
+}
+
+main {
+    margin-top: -150px;
+}
+
+h1 {
+    margin-top: 15px;
+    font-size: xx-large;
+}
+
+#scrittoda {
+    margin-top: -3%;
+    color: grey;
+}
+
+#booleaner {
+    color: dodgerblue;
+}
+
+.tim {
+    height: 300px;
+    margin-top: 20px;
+}
+
+#indice {
+    font-size: x-small;
+    margin-top: 0;
+}
+
+#evidenziato {
+    background-color: yellow;
+}
+
+div {
+    font-size: 13px;
+}
+
+.text {
+    margin-top: 15px;
+}
+
+ul {
+    padding-left: 15px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-size: 13px;
+}
+
+table {
+    font-size: 13px;
+    text-align: left;
+}
+
+thead {
+    background-color: rgb(4, 160, 212);
+    color: white;
+}
+
+.bluerow {
+    background-color: rgb(135, 225, 255);
+}
+
+#int {
+    margin-top: 25px;
+    font-size: 15px;
+    color: grey;
+}
+
+.image-container {
+    position: relative;
+    display: inline-block;
+  }
+  
+.image-container img {
+    margin-top: 5px;
+    display: block;
+    width: 60%;
+    height: auto;
+}
+  
+.overlay-text {
+    position: absolute;
+    top: 0px; 
+    left: -10px; 
+    color: #ffffff; 
+    padding: 10px 20px; 
+    font-size: 15px; 
+}
