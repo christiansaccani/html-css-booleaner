@@ -8,8 +8,8 @@ body {
     background-color: dodgerblue;
     display: inline-block;
     position: relative;
-    clip-path: inset(0 0 50% 0);
-    overflow: hidden;
+    clip-path: inset(0 0 50% 0); /*clip-path serve ad indicare quanto vogliamo tagliare un'immagine da sopra,destra,sotto,sinistra*/
+    overflow: hidden; /*overflow: hidden nasconde la parte clippata*/
 }
 
 #pattern {
@@ -19,6 +19,8 @@ body {
     clip-path: inset(0 0 50% 0);
     overflow: hidden;
 }
+
+/* Il margin-top del logo e il main servono a fixare una distanza non voluta, da verificare se corretto e se no, cosa è sbagliato */
 
 #logo {
     margin-top: -125px;
