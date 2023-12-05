@@ -5,7 +5,7 @@ body {
 }
 
 #background-container {
-    background-color: dodgerblue;
+    background-color: #4ea0ff;
     display: inline-block;
     position: relative;
     clip-path: inset(0 0 50% 0); /*clip-path serve ad indicare quanto vogliamo tagliare un'immagine da sopra,destra,sotto,sinistra*/
@@ -44,10 +44,6 @@ h1 {
 #scrittoda {
     margin-top: -3%;
     color: grey;
-}
-
-#booleaner {
-    color: dodgerblue;
 }
 
 .tim {
